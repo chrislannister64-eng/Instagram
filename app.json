@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Instagram Web",
+    "slug": "instagram-web",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos so you can share them.",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to use your camera so you can take photos to share."
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}
